@@ -1,0 +1,75 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #bbb061;
+  }
+  
+  header {
+    background: #333;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  a {
+    color: #1034d2;
+  }
+  
+  /* Selecting elements by class */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Selecting elements by ID */
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #figure {
+    position: relative;
+  }
+  
+  #bio-name {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    color: #fff !important;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+  }
+  

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Weather Channel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('navbaDropdown').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+  </script> -->
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><strong>Latitude</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!--Analyst Introduciton-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <Strong>Home</Strong> 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="analystbio.html" target="_blank">About The Analyst</a>
+                                              
+          </div>
+        </li>
+        <!--enables the user to view the individual plots in separate tabs in the webpage-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <strong>Plots</strong>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="assets/MaxTemp Map.png" target="_blank" >Max Temperature</a>
+            <a class="dropdown-item" href="assets/Humidity Map.png" target="_blank" >Humidity</a>
+            <a class="dropdown-item" href="assets/Cloudiness Map.png" target="_blank">Cloudiness</a>
+            <a class="dropdown-item" href="assets/WindSpeed Map.png"target="_bank" >Wind Speed</a>
+          </div>
+        </li>
+        <!--enables the user to compare all the four maps in one location-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <strong>Comparison</strong> 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="assets/Maps Comparison.png" target="_blank">Compare Maps</a>
+            
+           </div>
+        </li>
+        <!--enables the user to download the csv data used for plotting-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <strong>Data</strong> 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="cityweatherdata.csv">Download Plotting Data</a>
+          </div>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<br/>
+<p><I>  Weather is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dry, calm or stormy, clear or cloudy.
+  Most weather phenomena occur in the lowest level of the atmosphere, the troposphere, just below the stratosphere.
+  Weather refers to day-to-day temperature and precipitation activity, whereas climate is the term for the averaging of atmospheric conditions over longer periods of time. When used without qualification, "weather" is generally understood to mean the weather of Earth.</p>
+ <p>    Weather is driven by air pressure, temperature and moisture differences between one place and another. These differences can occur due to the sun's angle at any particular spot, which varies with latitude. 
+   The strong temperature contrast between polar and tropical air gives rise to the largest scale atmospheric circulations: the Hadley Cell, the Ferrel Cell, the Polar Cell, and the jet stream. 
+   Weather systems in the mid-latitudes, such as extratropical cyclones, are caused by instabilities of the jet stream flow. Because the Earth's axis is tilted relative to its orbital plane, sunlight is incident at different angles at different times of the year.
+   On Earth's surface, temperatures usually range ±40 °C (−40 °F to 100 °F) annually.
+   
+ <p>   Over thousands of years, changes in Earth's orbit can affect the amount and distribution of solar energy received by the Earth, thus influencing long-term climate and global climate change.
+  Surface temperature differences in turn cause pressure differences. Higher altitudes are cooler than lower altitudes, as most atmospheric heating is due to contact with the Earth's surface while radiative losses to space are mostly constant. 
+  Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location. The Earth's weather system is a chaotic system; as a result, small changes to one part of the system can grow to have large effects on the system as a whole. Human attempts to control the weather have occurred throughout history, and there is evidence that human activities such as agriculture and industry have modified weather patterns.
+  Studying how the weather works on other planets has been helpful in understanding how weather works on Earth.</p> 
+
+ <p> This page visualizes the weather of 500+ cities across the world of varying distance from the equator.</I></p>
+ 
+
+</body>
+
+</html>
+

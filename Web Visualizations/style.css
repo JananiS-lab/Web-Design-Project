@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(245, 241, 241, 0.89);
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 10;
+    margin-right: 10;
+}
+.navbar-brand {
+    width: 10%;
+    height:35px;
+    background-color: #20B2AA;
+    text-align: center; 
+    font-family: arial;
+    color: #fff !important;
+    border-radius: 4px 4px 4px 4px;
+}
+div {
+    background-color: #fff;
+    color: #222;
+    border-radius: 4px 4px 4px 4px;
+}
+p {
+    background-color: #fff;
+    margin-left: 20px;
+    color: #222 !important;
+    width: 1000px;
+    border-radius: 4px 4px 4px 4px;
+}
