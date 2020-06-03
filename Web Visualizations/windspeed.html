@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>WindSpeed</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><strong>Latitude</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!--Analyst Introduciton-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+               <Strong>Home</Strong> 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="analystbio.html" target="_blank">About The Analyst</a>
+            </div>
+            </li>
+            <!--enables the user to view the individual plots in separate tabs in the webpage-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <strong>Plots</strong>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="maxtemp.html" target="_blank" >Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html" target="_blank" >Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html" target="_blank">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html"target="_bank" >Wind Speed</a>
+              </div>
+            </li>
+            <!--enables the user to compare all the four maps in one location-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Comparison</strong> 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="comparison.html" target="_blank">Compare Maps</a>
+                
+               </div>
+            </li>
+            <!--enables the user to download the csv data used for plotting-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <strong>Data</strong> 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="cityweatherdata.csv">Download Plotting Data</a>
+              </div>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <br/>
+      <br/>
+      <br/>
+    
+    <div class="row">
+      <!--First Column in this Row-->
+      <div class="col-md-7">
+        <div class="box1">
+          <h1><strong>Wind Speed</strong></h1><br/>
+          <img src="assets/WindSpeed Map.png"alt="WindSpeed" width="1000" height="750">
+          <p><strong>This map proves that there is a higher windspeed in the southern Hemisphere as compared to the Northern
+            hemisphere.</strong></p>
+          </p>
+        </div>
+      </div>
+      <br/>
+  
+      <!--Second Column in this Row-->
+      <div class="col-md-5">
+        <div class="box2">
+          <h1><strong>Visualizations</strong></h1><br/>
+            <img src="assets/MaxTemp Map.png" alt="MaxTemp" width="500" height="400" mr-auto>
+            <img src="assets/Humidity Map.png" alt="Humidity" width="500" height="400"mr-auto>
+            <img src="assets/Cloudiness Map.png" alt="Cloudiness" width="500" height="400"mr-auto>
+            <img src="assets/WindSpeed Map.png" alt="WindSpeed" width="500" height="400"mr-auto>
+        </div>
+      </div>
+    </div>
+   
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+

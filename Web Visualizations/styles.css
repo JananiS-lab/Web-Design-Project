@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.div-class{
+    height:200px;
+    background-color: #20B2AA;
+    text-align: center;
+    font-family: arial;
+    font-size: 24px !important;
+    color: #fff !important;
+    border-radius: 4px 4px 4px 4px;
+}
+body{
+    background-color: #fff;
+}
+p{
+    background-color:#fff;
+    color:#222;
+}
+.box1 {
+    border: 1px solid #DDD;
+    height: 1000px;
+    width: 1400px;
+    padding: 25px;
+    color: #20B2AA;
+    background-color: rgba(127, 131, 127, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+.box2 {
+    border: 1px solid #DDD;
+    height: 1000px;
+    width: 1400px;
+    padding: 25px;
+    color: #20B2AA;
+    background-color: rgba(127,131, 127, 0.2);
+    border-radius: 4px 4px 4px 4px;
+    margin: 10px;
+    
+}
+  .navbar-brand {
+    width:8%;
+    height:75px;
+    background-color: #20B2AA;
+    text-align: center; 
+    font-family: arial;
+    font-size: 35px !important;
+    color: #fff !important;
+    border-radius: 4px 4px 4px 4px;
+       
+}
+div {
+    background-color: #fff;
+    color: #222;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 30px;
+}
+img{
+    margin: 20px;
+}
+p{
+   color: #20B2AA;
+   font-style: italic;
+   width: 1400px;
+   border-radius: 4px 4px 4px 4px;
+}
